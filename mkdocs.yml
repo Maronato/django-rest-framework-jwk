@@ -1,0 +1,4 @@
+site_name: djangorestframework-jwk
+site_description: Easy JSON Web Keys (JWK) for your Django project
+repo_url: https://github.com/maronato/django-rest-framework-jwk
+site_dir: html
