@@ -1,14 +1,17 @@
 [tool.poetry]
 name = "django-rest-framework-jwk"
-version = "0.1.0"
+version = "0.1.2"
 description = "Easy JSON Web Keys (JWK) for your Django project"
 authors = ["Gustavo Maronato <gustavo@maronato.dev>"]
 license = "MIT"
+packages = [
+    { include = "rest_framework_jwk" },
+]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = ">= 3.6, < 4.0"
 cryptography = "^3.3.1"
-Django = "^2.2"
+Django = ">= ^2.2, <= ^3.1"
 djangorestframework = "^3.10"
 jwcrypto = "^0.8"
 
